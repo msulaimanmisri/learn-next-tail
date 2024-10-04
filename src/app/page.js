@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <h1 className="flex justify-center h-screen items-center text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="bg-slate-900 flex justify-center items-center h-screen">
+      <h1 className="font-extrabold text-9xl selection:text-pink-400">
+        Sulaiman Blog
+      </h1>
+    </div>
   )
 }
